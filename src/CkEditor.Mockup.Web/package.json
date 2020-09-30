@@ -1,0 +1,26 @@
+{
+  "name": "ckeditor.mockup.web",
+  "version": "1.0.0",
+  "description": "Mockup do CkEditor JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cleber Roberto Movio",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "ckeditor4": "ckeditor/ckeditor4-releases#full/latest",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uncss": "^1.0.6",
+    "jquery": "^3.5.1",
+    "jquery-validation": "^1.19.2",
+    "jquery-validation-unobtrusive": "^3.2.11"
+  }
+}

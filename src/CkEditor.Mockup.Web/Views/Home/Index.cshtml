@@ -1,0 +1,33 @@
+﻿
+@model CkEditor.Mockup.Web.Models.EditorViewModel
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<script src="js/ckeditor4/ckeditor.js"></script>
+<script src="js/Views/home.js"></script>
+
+<div class="text-center">
+    <h1 class="display-4">Mockup CKEditor</h1>
+    <p>Projeto de teste do componente CKEditor 4</p>
+</div>
+<hr>
+<div class="row">
+    <div class="col-lg-2">
+        <div class="form-group">
+            <label>Tipo:</label>&nbsp;
+            <select class="form-control" asp-for="TipoSelect" asp-items="@Model.ListaTipo"></select>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-lg-12">
+        <div id="editor"></div>
+    </div>
+</div>
+
+<script>
+    InitializaEditor();
+</script>
